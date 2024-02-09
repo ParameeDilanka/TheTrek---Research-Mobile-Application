@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.locationsHandler.AddLocations"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="684dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="24dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Locations"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_addLocation_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Location Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txt_addLocation_latitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Latitude"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txt_addLocation_longitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Longitude"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txt_addLocation_elevation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Elevation"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_addLocationActivity_addLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Location"
+            android:backgroundTint="#5D71C9"/>
+
+        <Button
+            android:id="@+id/btn_MapVedioActivity_userGuide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Guide"
+            android:backgroundTint="#5D71C9"/>
+
+        <Button
+            android:id="@+id/btn_predictor"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:backgroundTint="#5D71C9"
+            android:text="Rewards Predictor" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

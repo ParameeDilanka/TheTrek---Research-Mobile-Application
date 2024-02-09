@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LaunchActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Craft Your Active Adventure"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"></TextView>
+
+    <Button
+        android:id="@+id/outdoor"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="Adventure and Outdoor Activities"
+        android:backgroundTint="#5D71C9"/>
+
+
+    <Button
+        android:id="@+id/sports"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:text="Unique Sports and Games"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="300dp"
+        android:backgroundTint="#5D71C9" />
+
+    <Button
+        android:id="@+id/dance"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:text="Dance and Movement Arts"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+        android:backgroundTint="#5D71C9"/>
+
+    <Button
+        android:id="@+id/workouts"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:text="Alternative Fitness Workouts"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="400dp"
+        android:backgroundTint="#5D71C9"/>
+
+</RelativeLayout>

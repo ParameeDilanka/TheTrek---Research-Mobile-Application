@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">The Trek</string>
+    <string name="button_text_set_anchor" translatable="false">ANCHOR SETTING</string>
+    <string name="switch_render_streetscaope_geometry" translatable="false">SHOW GEOMETRY</string>
+    <string name="button_text_clear_anchors" translatable="false">CLEAR ALL ANCHORS</string>
+    <string name="tap_screen_text" translatable="false">TAP ON SCREEN TO CREATE ANCHOR</string>
+    <string name="status_unsupported" translatable="false">This device is not supported.</string>
+    <string name="status_pretracking" translatable="false">Localizing your device to set anchor.</string>
+    <string name="status_earth_state_error" translatable="false">There was an error state error, check that you have a valid authentication for the ARCore API.</string>
+    <string name="status_localize_hint" translatable="false">Point your camera at buildings, stores, and signs near you.</string>
+    <string name="status_localize_timeout" translatable="false">Localization not possible.\nClose and open the app to restart session.</string>
+    <string name="status_localize_complete" translatable="false">Localization complete.</string>
+    <string name="status_terrain_anchor" translatable="false">Terrain anchor state: %1$s</string>
+    <string name="status_rooftop_anchor" translatable="false">Rooftop anchor state: %1$s</string>
+    <string name="terrain_anchor_no_result_yet" translatable="false">Still resolving the terrain anchor. Please make sure you\'re in an area that has VPS coverage.</string>
+    <string name="terrain_anchor_resource_exhausted" translatable="false">Too many terrain anchors have already been held. Clear all anchors to create new ones.</string>
+    <plurals name="status_anchors_set">
+        <item quantity="one">%d / %d Anchor set</item>
+        <item quantity="other">%d / %d Anchors set</item>
+    </plurals>
+    <plurals name="status_anchors_cleared">
+        <item quantity="one">%d Anchor cleared</item>
+        <item quantity="other">%d Anchors cleared</item>
+    </plurals>
+    <string name="geospatial_pose_not_tracking" translatable="false">GEOSPATIAL POSE: Not tracking</string>
+    <string name="geospatial_pose" translatable="false">LAT/LNG: %.6f˚, %.6f˚\n\t\t\tACCURACY: %.2fm\nALTITUDE: %.2fm\n\t\t\tACCURACY: %.2fm\nORIENTATION: [%.1f, %.1f, %.1f, %.1f]\n\t\t\tYAW ACCURACY: %.1f˚</string>
+
+    <!-- Strings used in privacy notice dialog messages. [CHAR_LIMIT=NONE] -->
+    <string name="share_experience_title">AR in the real world</string>
+    <!-- Privacy notice message. [CHAR_LIMIT=NONE] -->
+    <string name="share_experience_message">To power this session, Google will process visual data from your camera.</string>
+    <!-- Privacy notice accept. [CHAR_LIMIT=NONE] -->
+    <string name="agree_to_share">Get started</string>
+    <!-- Privacy notice learn more. [CHAR_LIMIT=NONE] -->
+    <string name="learn_more">Learn more</string>
+    <!-- Geospatial privacy website. [CHAR_LIMIT=NONE] -->
+    <string name="learn_more_url" translatable="false">https://developers.google.com/ar/data-privacy</string>
+
+    <!-- Strings used in VPS unavailable notice dialog messages. [CHAR_LIMIT=NONE] -->
+    <string name="vps_unavailable_title">VPS not available</string>
+    <!-- VPS unavailable notice message. [CHAR_LIMIT=NONE] -->
+    <string name="vps_unavailable_message">Your current location does not have VPS coverage. Your session will be using your GPS signal only if VPS is not available.</string>
+    <!-- VPS unavailable notice continue. [CHAR_LIMIT=NONE] -->
+    <string name="continue_button">Continue</string>
+    <string name="google_maps_key">AIzaSyBKMivuX-s-BvbGQOxiFbo7Q0_ZyrjePdo</string>
+
+
+    <string name="record">Record</string>
+    <string name="recording">Recording</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="gyro">Gyroscope</string>
+    <string name="linear_acc">Linear Acceleration</string>
+    <string name="status_stopped">Hit record button to start</string>
+    <string name="refresh_rate">Refresh rate</string>
+    <string name="speed_normal">Normal</string>
+    <string name="speed_fast">Fast</string>
+    <string name="speed_fastest">Fastest</string>
+    <string name="rw_permission_string">Kindly allow read/write permission to save recorded dataset into external storage</string>
+    <string name="recording_stopped">Recording Stopped</string>
+    <string name="add_label">Add Label</string>
+
+    <string name="activity">Activity</string>
+    <string name="probability">Probability</string>
+    <string name="downstairs">Downstairs</string>
+    <string name="jogging">Jogging</string>
+    <string name="sitting">Sitting</string>
+    <string name="standing">Standing</string>
+    <string name="upstairs">Upstairs</string>
+    <string name="walking">Walking</string>
+    <string name="biking">Biking</string>
+
+    <string name="yogi" translatable="false">Yogi</string>
+    <string name="get_started" translatable="false">Get started</string>
+    <string name="built_for" translatable="false">Built for</string>
+    <string name="users" translatable="false">All users</string>
+    <string name="add_your_first_user" translatable="false">Add your first user</string>
+    <string name="add" translatable="false">Add</string>
+    <string name="display_poses" translatable="false">Display Poses</string>
+    <string name="stopwatch" translatable="false">Stopwatch</string>
+    <string name="send_email_to_self" translatable="false">Send email to self</string>
+    <string name="take_progress_picture" translatable="false">Take picture for form evaluation</string>
+    <string name="gender_unknown" formatted="false" translatable="false">Gender Unknown</string>
+    <string name="profile_info" translatable="false">Profile Information</string>
+    <string name="name" translatable="false">Name</string>
+    <string name="surname" translatable="false">Surname</string>
+    <string name="date_of_birth" translatable="false">Date of Birth</string>
+    <string name="weight_label" translatable="false">Weight:</string>
+    <string name="kg" translatable="false">kg</string>
+    <string name="save" translatable="false">Save</string>
+    <string name="dob_error" translatable="false">Please enter a date with the format D-M-YYYY</string>
+    <string name="weight_error" translatable="false">Please enter a valid number</string>
+    <string name="name_error" translatable="false">Name cannot be empty</string>
+    <string name="surname_error" translatable="false">Surname cannot be empty</string>
+    <string name="info" translatable="false">%s, born on %s</string>
+    <string name="weight" translatable="false">Weight: %s kg</string>
+    <string name="start" translatable="false">Start</string>
+    <string name="stop" translatable="false">Stop</string>
+    <string name="reset" translatable="false">Reset</string>
+    <string name="email_yourself" translatable="false">Send email to self</string>
+    <string name="to" translatable="false">To</string>
+    <string name="subject" translatable="false">Subject</string>
+    <string name="email_body" translatable="false">Email body</string>
+    <string name="send" translatable="false">Send</string>
+    <string name="body_text" translatable="false">Dear self, \nYou have done your yoga and meditation for the day.\nBelieve in yourself, trust your instincts \nand live life to the fullest each and every second.\nYours truly.</string>
+    <string name="no_mail" translatable="false">No activity for email found</string>
+    <string name="subject_text" translatable="false">You did awesome today!!</string>
+    <string name="mind" translatable="false">Mind</string>
+    <string name="abdominal" translatable="false">core</string>
+    <string name="legs" translatable="false">Legs</string>
+    <string name="introtocore" translatable="false">Get Ready to Stregthen your Core</string>
+    <string name="dolphin_text" translatable="false">Similar to the regular plank, but adding the dolphin pose. Goal is to keep arms parallel to each other when on the floor, while also curling your toes but keeping that core engaged almost as if your body is a table. Perform for 30 seconds, for 2–3 times but rest up properly before each execution</string>
+    <string name="warriortext" translatable="false">Start out in lunge position. Extend arms upwards but keep them parallel. Focus on breathing deeply, especially on exhaling which is what contracts alot of the core in this exercise. Repeat 2 times per leg for around 30 seconds - 1 minute.</string>
+    <string name="Bridgetext" translatable="false">Although this does bring the back muscles into play. We will see a different variation of this in our back category which will target the back even better. Remember to breath in and out while holding the position and press your arms on the floor almost as if you want to lift your whole body. Hold for 20-30 breaths.</string>
+    <string name="introtolegs" translatable="false">Get Ready to Strenthen your Legs</string>
+    <string name="DownDog" translatable="false">Downward-Facing Dog Pose</string>
+    <string name="dogstring" translatable="false">Streches back, hamstrings, glutes and calves, along with upper body muscles such as shoulders. Extreme flexibility can be showcased by having the no space between heels and floor.</string>
+    <string name="triangle_pose" translatable="false">Triangle Pose</string>
+    <string name="Tposestring" translatable="false">Triangle pose focuses on stretching and lengthening the muscles in your thighs, hips, and back. You should also feel a good stretch in your hamstrings.</string>
+    <string name="BridgevarText" translatable="false">Bridge Pose can help strengthen your glutes, hamstrings, and lower back. It’s also an excellent hip and chest opener.</string>
+    <string name="Halfmoontext" translatable="false">This standing pose helps strengthen your quads, glutes, ankles, and core. It also stretches your hamstrings, calves, and groin muscles.</string>
+    <string name="mindtext" translatable="false">Get Ready to Strengthen your Mind</string>
+    <string name="medtext" translatable="false">Meditating cross-legged is an excellent option for those with open hips and no joint problems. Sitting with crossed legs is symmetrical, secure, feels grounding, and allows for an unrestricted flow of prana throughout the body.</string>
+    <string name="cross_legged_position" translatable="false">Cross Legged Position</string>
+    <string name="kneeling_pose" translatable="false">Kneeling Pose</string>
+    <string name="kneelText" translatable="false">If you prefer to sit on the ground, but crossed legs are causing discomfort, kneeling in Hero pose is another possibility for a grounding meditation seat that lengthens the spine. Either sit back on your heels or add cushions underneath your sit bones to help alleviate weight-bearing stress on your lower body.</string>
+    <string name="textChair" translatable="false">Many people find that it’s most comfortable to meditate while sitting on a chair. If possible, sit near the edge of the chair, with a straight spine, relaxed shoulders, hands in your lap and your feet flat on the floor.</string>
+    <string name="chair_position" translatable="false">Chair Position</string>
+    <string name="get_ready_to_strengthen_your_back" translatable="false">Get Ready to Strengthen your Back</string>
+    <string name="catcowdes" translatable="false">Get on all fours. Balance your weight evenly between all four points. Inhale as you look up and let your stomach drop down toward the mat. Exhale as you tuck your chin into your chest, and arch your spine toward the ceiling. Maintain awareness of your body as you do this movement. Focus on noting and releasing tension in your body. Continue this fluid movement for at least 1 minute.</string>
+    <string name="vwpose" translatable="false">Victorious Warrior Pose</string>
+    <string name="CatCow" translatable="false">Cat - Cow</string>
+    <string name="dwfdog" translatable="false">Downward-Facing Dog</string>
+    <string name="dwfdogdesc" translatable="false">Place your hands in alignment under your wrists and your knees under your hips. Press into your hands, tuck your toes under, and lift up your knees. Keep a slight bend in your knees and lengthen your spine and tailbone. Keep your heels slightly off the ground. Distribute your weight evenly between both sides of your body, paying attention to the position of your hips and shoulders. Keep your head in line with your upper arms or with your chin tucked in slightly. Hold this pose for up to 1 minute.</string>
+    <string name="extriangle" translatable="false">Extended Triangle</string>
+    <string name="extTriangleDesc" translatable="false">From standing, walk your feet about 4 feet apart. Turn your right toes to face forward, and your left toes out at an angle. Lift your arms parallel to the floor with your palms facing down. Tilt forward and hinge at your right hip to come forward with your arm and torso. Bring your hand to your leg, a yoga block, or onto the floor. Extend your left arm up toward the ceiling. Look up, forward, or down. Hold this pose for up to 1 minute. Repeat on the opposite side.</string>
+    <string name="twokneetwistdesc" translatable="false">Lie on your back with your knees drawn into your chest and your arms extended to the side. Slowly lower your legs to the left side while keeping your knees as close together as possible. You may place a pillow under both knees or in between your knees. You can use your left hand to gently press down on your knees. Keep your neck straight, or turn it to either side. Focus on breathing deeply in this position. Hold this pose for at least 30 seconds. Repeat on the opposite side.</string>
+    <string name="outdoor1" translatable="false">Adventure and Outdoor Activities</string>
+    <string name="outdoor2" translatable="false"> Parkour is a movement discipline where you navigate your environment by running, jumping, and climbing over obstacles with fluidity and efficiency.</string>
+    <string name="geoText" translatable="false">Geocaching is like a real-world treasure hunt using GPS coordinates to find hidden caches. It gets you outdoors and can involve hiking, walking, or biking.</string>
+    <string name="textRock" translatable="false"> Indoor or outdoor rock climbing offers an excellent full-body workout while challenging your problem-solving skills.</string>
+    <string name="textDisk" translatable="false">Similar to traditional golf, but you throw a disc into a basket instead of hitting a ball into a hole. It is a low-impact activity that can be enjoyed in a variety of outdoor settings.</string>
+    <string name="capoeira" translatable="false">This Brazilian martial art combines elements of dance, acrobatics, and music.It is a great full-body workout that also teaches rhythm and balance.</string>
+    <string name="aeriText" translatable="false">Aerial silks involve performing acrobatic moves while suspended from fabric hung from the ceiling. It is an excellent way to build strength and flexibility.</string>
+    <string name="swiming" translatable="false">Try your hand at synchronized swimming, which combines swimming with dance and gymnastics. It is a fantastic way to improve your water skills and coordination.</string>
+    <string name="circus" translatable="false"> Learn circus skills like juggling, clowning, or even tightrope walking. These activities are not only physically demanding but also loads of fun.</string>
+    <string name="hulahooping" translatable="false">Hooping is a fun way to work your core muscles and improve your coordination. You can even find hula hoop dance classes for a more creative approach.</string>
+    <string name="ultimatefrisbee" translatable="false">This team sport combines elements of soccer, football, and basketball, but instead of a ball, you use a frisbee. It is a great way to improve your endurance and agility.</string>
+    <string name="trampolinedodgeball" translatable="false">Combine dodgeball with trampolines for an exciting, high-energy game that provides an excellent cardiovascular workout.</string>
+    <string name="pickleball" translatable="false">Pickleball is a paddle sport that combines elements of tennis, badminton, and table tennis. It is easy to learn and great for all ages.</string>
+    <string name="frolf" translatable="false"> Similar to disc golf, this game involves throwing a frisbee into a target in as few throws as possible. It is a relaxed outdoor activity that can be enjoyed with friends.</string>
+    <string name="cardiodrumming" translatable="false">Cardio drumming involves drumming on exercise balls while following an instructors rhythmic movements. It is a fantastic way to get your heart rate up while having fun.</string>
+    <string name="aqua" translatable="false">Aqua Aerobics is a fitness class conducted in a pool, featuring low-impact aerobic and resistance exercises. Utilizing the waters buoyancy to minimize joint stress, participants engage in activities like leg lifts, arm circles, and jumping jacks. This workout is adaptable for individuals of all fitness levels and is favored by those seeking a gentle yet comprehensive approach to enhancing cardiovascular fitness, strength, and flexibility.</string>
+    <string name="poundfit" translatable="false">Pound Fit is a high-energy fitness class that combines cardio, strength training, and drumming. Participants use lightly weighted drumsticks called Ripstix to perform rhythmic movements, drumming to the beat of the music while getting a full-body workout. It is a fun and unique way to improve coordination, endurance, and muscle tone.</string>
+    <string name="bungeefitness" translatable="false">Bungee fitness involves wearing a harness attached to bungee cords suspended from the ceiling. Participants can perform a variety of exercises, including jumps, flips, and resistance training, while experiencing a feeling of weightlessness. Bungee fitness provides an exciting and challenging full-body workout while also improving balance and core strength.</string>
+    <string name="hiking" translatable="false">Hiking is an outdoor activity that combines exercise with adventure by allowing individuals to explore natural trails and landscapes. It offers a chance to connect with nature, breathe in fresh air, and enjoy the sights and sounds of the outdoors. Whether for leisurely walks or challenging ascents, hiking provides physical fitness, mental relaxation, and a deep connection with the environment, making it accessible and enjoyable for people of all ages and fitness levels.</string>
+    <string-array name="genders">
+        <item>Select gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+</resources>

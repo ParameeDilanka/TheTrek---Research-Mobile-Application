@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="HydrationWave"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="🌊 Stay Hydrated, Surfer. Catch the Wave of Wellness! 🏄‍♂️ 🌴"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/hydrationGoalEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview2"
+        android:layout_margin="16dp"
+        android:hint="Set Daily Hydration Goal (ml)"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/setGoalButton"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@+id/hydrationGoalEditText"
+        android:layout_margin="16dp"
+        android:text="Set Goal"
+        android:backgroundTint="#5D71C9" />
+
+    <!-- The TextView for displaying the current goal -->
+    <TextView
+        android:id="@+id/currentGoalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setGoalButton"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:text="Current Goal: 2000 ml"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/waterIntakeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/currentGoalTextView"
+        android:layout_margin="16dp"
+        android:hint="Enter water intake (ml)"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/trackButton"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@+id/waterIntakeEditText"
+        android:layout_margin="16dp"
+        android:text="Track"
+        android:backgroundTint="#5D71C9" />
+
+    <Button
+        android:id="@+id/checkButton"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@+id/trackButton"
+        android:layout_margin="16dp"
+        android:text="Check Hydration"
+        android:backgroundTint="#5D71C9" />
+</RelativeLayout>

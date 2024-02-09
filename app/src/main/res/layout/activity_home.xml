@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="352dp"
+        android:layout_height="677dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/logo" />
+
+        <Button
+            android:id="@+id/btn_homeActivity_findPlaces"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:backgroundTint="#5D71C9"
+            android:text="Find Places" />
+
+        <Button
+            android:id="@+id/btn_homeActivity_mobileUsage"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:backgroundTint="#5D71C9"
+            android:text="Mobile Usage" />
+
+        <Button
+            android:id="@+id/btn_homeActivity_getPhysical"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:backgroundTint="#5D71C9"
+            android:text="Get Physical" />
+
+        <Button
+            android:id="@+id/btn_predictor"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:backgroundTint="#5D71C9"
+            android:text="Suggestion Predictor" />
+
+        <Button
+            android:id="@+id/btn_homeActivity_healthMonitoring"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:backgroundTint="#5D71C9"
+            android:text="Health Monitoring" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_homeActivity_locationsHandler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#404040"
+                android:text="Locations"
+                app:icon="@drawable/ic_baseline_location_on_24" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_weight="0.2" />
+
+            <Button
+                android:id="@+id/btn_homeActivity_rewards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#404040"
+                android:text="Rewards"
+                app:icon="@drawable/ic_baseline_card_giftcard_24" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_activityRecognition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#404040"
+                android:text="Activity"
+                app:icon="@drawable/activity" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_weight="0.2" />
+
+            <Button
+                android:id="@+id/btn_recorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#404040"
+                android:text="Recorder"
+                app:icon="@drawable/recorder" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

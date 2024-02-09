@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.VedioActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔓🎨 Unlock the Art of Effortless Physical Mastery with Interactive Video Guides! 📽️🏃‍♀️🤸‍♂"
+        android:textSize="19dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Geocaching"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"></TextView>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:id="@+id/webView"
+        android:layout_marginTop="120dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rock Climbing"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:layout_marginTop="380dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"></TextView>
+
+    <WebView
+        android:id="@+id/webView2"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:layout_marginTop="420dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hiking"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:layout_marginTop="680dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"></TextView>
+
+    <WebView
+        android:id="@+id/webView3"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:layout_marginTop="720dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Disk Golf"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:layout_marginTop="980dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"></TextView>
+
+    <WebView
+        android:id="@+id/webView4"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:layout_marginTop="1020dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parkour"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:layout_marginTop="1240dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"></TextView>
+
+    <WebView
+        android:id="@+id/webView5"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:layout_marginTop="1280dp" />
+
+</RelativeLayout>

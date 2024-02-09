@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.locationsHandler.LocationsCrud"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="679dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="26dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Locations"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lbl_locationsCrud_noLocationMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Locations Saved" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView_locationsCrud"
+            android:layout_width="match_parent"
+            android:layout_height="590dp" />
+
+        <Button
+            android:id="@+id/btn_locationsCrudActivity_addLocations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Locations"
+            app:icon="@drawable/ic_baseline_playlist_add_24"
+            android:backgroundTint="#5D71C9"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PredictReward"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rewards Predictor"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Latitude"
+        android:id="@+id/latitude"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longitude"
+        android:id="@+id/longitude"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Elevation (0 – (177.3 to 179.9), 1 – (180 to 189.9), 2 - (190 to 200), 3 - (201 to 229.9), 4 - (230 to 290), 5 - (291 to 460.6)
+)"
+        android:id="@+id/elevation"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        ></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Click for Prediction"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:id="@+id/predict"
+        android:backgroundTint="#5D71C9"></Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:id="@+id/reward"
+        android:textColor="@color/cardview_dark_background"></TextView>
+
+</LinearLayout>
+
+
+
